@@ -8,18 +8,17 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("===================");
-        System.out.println("Result:");
+        System.out.println("WORKS!");
 
-        /* --------- Unique string characters ----------
+        /* =============== Unique string characters ===============
 
         boolean uniqueStringCharacters = UniqueStringCharacters.isUnique3("avbgh");
         System.out.println(uniqueStringCharacters);
 
-        */
+        --------------------- end ------------------*/
 
 
-        /* ---------- Next Greater Element ----------
+        /* =============== Next Greater Element ===============
 
         List<Integer> nextGreaterElement = new ArrayList<Integer>() {{
             add(5);
@@ -36,11 +35,15 @@ public class Main {
         }};
         NextGreaterElement.findNextGreaterElemnt(nextGreaterElement);
 
-        */
+        --------------------- end -----------------------*/
+
+        /*=============== Reverse String ===============
 
         String test = "_abc";
         System.out.println(ReverseString.reverseString(test));
 
         System.out.println("===================");
+
+        --------------------------- end -----------------*/
     }
 }
