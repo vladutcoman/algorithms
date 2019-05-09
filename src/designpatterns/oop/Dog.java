@@ -19,4 +19,12 @@ public class Dog extends Animal {
 
         System.out.println("Met var: " + var);
     }
+
+    private void bePrivate() {
+        System.out.println("PRIVATE");
+    }
+
+    public void accessPrivate() {
+        bePrivate();
+    }
 }
