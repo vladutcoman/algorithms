@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65644318-1ad1-4eee-b7f7-3cea10712b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/AnimalPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/Flys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/STRATEGY.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/strategy/strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/strategy/Animal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -78,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designpatterns/strategy/AnimalPlay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -133,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/designpatterns/strategy/Dog.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/strategy/Flys.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/strategy/AnimalPlay.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -191,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547812020103" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/designpatterns/strategy" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Work/dashboard/ProjectDash/service-smart" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
@@ -268,7 +273,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28334257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,12 +283,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298279" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33652008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33652008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" weight="0.32695985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" visible="true" weight="0.32695985" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.3280522" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3099352" />
@@ -304,13 +308,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/algorithms.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/book/datastructure/UniqueStringCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,6 +484,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
