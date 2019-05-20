@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65644318-1ad1-4eee-b7f7-3cea10712b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/GetTheTiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTestThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/OldRobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/RobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/RobotEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/RobotPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/TestRobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/builder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,42 +31,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpatterns/singleton/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#780#788#0" expanded="true" />
-                <element signature="e#2700#2708#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpatterns/singleton/GetTheTiles.java">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/OldRobotBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="82" lean-forward="true" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotEngineer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTestThreads.java">
+        <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/TestRobotBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="480">
+              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -117,6 +171,12 @@
         <option value="$PROJECT_DIR$/src/designpatterns/singleton/GetTheTiles.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTest.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTestThreads.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/RobotPlan.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/Robot.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/RobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/OldRobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/RobotEngineer.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/builder/TestRobotBuilder.java" />
       </list>
     </option>
   </component>
@@ -157,7 +217,7 @@
               <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,11 +228,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547812020103" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/designpatterns/factory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/designpatterns/builder" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/designpatterns/builder" />
       <recent name="$PROJECT_DIR$/src/designpatterns/factory" />
       <recent name="$PROJECT_DIR$/src/designpatterns/strategy" />
     </key>
@@ -189,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScrabbleTestThreads">
+  <component name="RunManager" selected="Application.TestRobotBuilder">
     <configuration name="AnimalPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.AnimalPlay" />
       <module name="algorithms" />
@@ -209,19 +270,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designpatterns.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrabStocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.observer.GrabStocks" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,20 +303,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRobotBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.TestRobotBuilder" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AnimalPlay" />
-      <item itemvalue="Application.GrabStocks" />
       <item itemvalue="Application.EnemyShitTesting" />
       <item itemvalue="Application.ScrabbleTest" />
       <item itemvalue="Application.ScrabbleTestThreads" />
+      <item itemvalue="Application.TestRobotBuilder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRobotBuilder" />
         <item itemvalue="Application.ScrabbleTestThreads" />
         <item itemvalue="Application.ScrabbleTest" />
         <item itemvalue="Application.EnemyShitTesting" />
         <item itemvalue="Application.AnimalPlay" />
-        <item itemvalue="Application.GrabStocks" />
       </list>
     </recent_temporary>
   </component>
@@ -307,12 +368,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298279" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33652008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33652008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298279" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" weight="0.32695985" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" visible="true" weight="0.32695985" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.3280522" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298279" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3099352" />
@@ -631,10 +692,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/builder.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpatterns/singleton/ScrabbleTestThreads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/RobotBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/OldRobotBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpatterns/builder/TestRobotBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
         </state>
       </provider>
     </entry>
