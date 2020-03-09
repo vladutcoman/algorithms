@@ -1,4 +1,4 @@
-package book.datastructure.string;
+package book.datastructure.array;
 
 import java.util.Arrays;
 
