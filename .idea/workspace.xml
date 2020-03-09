@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65644318-1ad1-4eee-b7f7-3cea10712b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/book/datastructure/StringAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/datastructure/string/RecplaceAllSpaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book/datastructure/RemoveStringDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/RemoveStringDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book/datastructure/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book/datastructure/UniqueStringCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/UniqueStringCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/datastructure/RemoveStringDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/string/RemoveStringDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/datastructure/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/string/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/datastructure/StringAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/string/StringAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/datastructure/UniqueStringCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/string/UniqueStringCharacters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +68,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringAnagrams">
-    <configuration name="RemoveStringDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.datastructure.RemoveStringDuplicates" />
+  <component name="RunManager" selected="Application.RecplaceAllSpaces">
+    <configuration name="RecplaceAllSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.string.RecplaceAllSpaces" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.datastructure.*" />
+          <option name="PATTERN" value="book.datastructure.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveStringDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.string.RemoveStringDuplicates" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.datastructure.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,24 +96,11 @@
       </method>
     </configuration>
     <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.datastructure.ReverseString" />
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.string.ReverseString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SandwichSculptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.template.SandwichSculptor" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.template.*" />
+          <option name="PATTERN" value="book.datastructure.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="StringAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.datastructure.StringAnagrams" />
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.string.StringAnagrams" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.datastructure.*" />
+          <option name="PATTERN" value="book.datastructure.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="UniqueStringCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.datastructure.UniqueStringCharacters" />
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.string.UniqueStringCharacters" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.datastructure.*" />
+          <option name="PATTERN" value="book.datastructure.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SandwichSculptor" />
       <item itemvalue="Application.UniqueStringCharacters" />
       <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.RemoveStringDuplicates" />
       <item itemvalue="Application.StringAnagrams" />
+      <item itemvalue="Application.RecplaceAllSpaces" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecplaceAllSpaces" />
         <item itemvalue="Application.StringAnagrams" />
         <item itemvalue="Application.RemoveStringDuplicates" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.UniqueStringCharacters" />
-        <item itemvalue="Application.SandwichSculptor" />
       </list>
     </recent_temporary>
   </component>

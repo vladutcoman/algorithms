@@ -1,4 +1,4 @@
-package book.datastructure;
+package book.datastructure.string;
 
 public class ReverseString {
 

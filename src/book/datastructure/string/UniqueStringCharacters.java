@@ -1,4 +1,4 @@
-package book.datastructure;
+package book.datastructure.string;
 
 import java.util.HashMap;
 import java.util.Map;
