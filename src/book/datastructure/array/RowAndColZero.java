@@ -17,8 +17,18 @@ public class RowAndColZero {
         };
 
         replaceZeros(multi, 5);
-
         displayMatrix(5, multi);
+
+        int[][] multi2 = new int[][]{
+                { 1, 2, 3, 4, 5 },
+                { 1, 2, 0, 4, 5 },
+                { 1, 2, 3, 4, 0 },
+                { 1, 8, 0, 4, 5 },
+                { 1, 2, 3, 4, 5 }
+        };
+        bookSolution(multi2, 5);
+        displayMatrix(5, multi2);
+
         System.out.println("End...");
     }
 
@@ -42,7 +52,6 @@ public class RowAndColZero {
             }
         }
 
-        System.out.println(rows);
         rows.keySet().forEach(key -> {
             replaceRows(mat, n, key);
         });
@@ -60,7 +69,7 @@ public class RowAndColZero {
         }
     }
 
-    static void displayMatrix(int N, int[][] mat)
+    private static void displayMatrix(int N, int[][] mat)
     {
         for (int i = 0; i < N; i++)
         {
@@ -70,5 +79,28 @@ public class RowAndColZero {
             System.out.print("\n");
         }
         System.out.print("\n");
+    }
+
+    /** Book Solution */
+    private static void bookSolution(int[][] mat, int n) {
+        int[] row = new int[n];
+        int[] col = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (mat[i][j] == 0) {
+                    row[i] = 1;
+                    col[j] = 1;
+                }
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (row[i] == 1 || col[j] == 1) {
+                    mat[i][j] = 0;
+                }
+            }
+        }
     }
 }

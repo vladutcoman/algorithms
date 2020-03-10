@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65644318-1ad1-4eee-b7f7-3cea10712b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/book/datastructure/array/RowAndColZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/datastructure/array/RowAndColZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/datastructure/array/RowAndColZero.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
