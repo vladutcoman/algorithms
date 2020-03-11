@@ -1,8 +1,10 @@
 package book.datastructure.linkedlist;
 
+
+
 public class Node {
-    private Node next= null;
-    private int data;
+    Node next= null;
+    int data;
 
     public Node(int data) {
         this.data = data;
@@ -31,4 +33,8 @@ public class Node {
         }
         return head;
     }
+}
+
+class LinkedListNode {
+    Node head; // head of the list
 }
