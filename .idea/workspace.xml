@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65644318-1ad1-4eee-b7f7-3cea10712b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/book/datastructure/linkedlist/SumNumberList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/datastructure/linkedlist/CircularListStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
     </list>
@@ -63,7 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteMiddleNode">
+  <component name="RunManager" selected="Application.CircularListStart">
+    <configuration name="CircularListStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.datastructure.linkedlist.CircularListStart" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteMiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="book.datastructure.linkedlist.DeleteMiddleNode" />
       <module name="algorithms" />
@@ -103,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RowAndColZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.datastructure.array.RowAndColZero" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.datastructure.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lastNthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="book.datastructure.linkedlist.lastNthElement" />
       <module name="algorithms" />
@@ -130,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RowAndColZero" />
       <item itemvalue="Application.IsSubstringRotation" />
       <item itemvalue="Application.RemoveDuplicate" />
       <item itemvalue="Application.lastNthElement" />
       <item itemvalue="Application.DeleteMiddleNode" />
+      <item itemvalue="Application.CircularListStart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularListStart" />
         <item itemvalue="Application.DeleteMiddleNode" />
         <item itemvalue="Application.lastNthElement" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.IsSubstringRotation" />
-        <item itemvalue="Application.RowAndColZero" />
       </list>
     </recent_temporary>
   </component>
