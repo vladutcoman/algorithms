@@ -4,6 +4,8 @@
 *.idea
 .idea
 .idea/workspace.xml
+.idea/*
+
 
 # Log file
 *.log
